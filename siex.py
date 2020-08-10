@@ -17,7 +17,7 @@ sheet_names = (
 )
 
 class SIEX:
-    def __init__ (self, path = 'plan/siex', nome = "siex_model.xls"):
+    def __init__ (self, path = 'plan/siex', nome = "siex_blank.xls"):
         address = path + "/" + nome
         self.address = address
         self.nome = nome
